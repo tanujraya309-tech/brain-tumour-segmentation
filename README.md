@@ -48,11 +48,11 @@ brain-tumour-segmentation/
 - [x] MRI data loading
 - [x] MRI visualization
 - [x] Initial image exploration
-- [ ] BraTS dataset preparation
-- [ ] MRI preprocessing
-- [ ] Tumour segmentation
-- [ ] Segmentation evaluation
-- [ ] Tumour area and volume analysis
+- [x] BraTS dataset preparation
+- [x] MRI preprocessing
+- [x] Tumour segmentation
+- [x] Segmentation evaluation
+- [x] Tumour area and volume analysis
 
 ## Dataset
 
