@@ -38,7 +38,7 @@ print("Using device:", device)
 
 # --------------------------------
 # 3. LOAD DATASET SPLITS
-# --------------------------------
+
 
 with open("splits.json", "r") as file:
     split_data = json.load(file)

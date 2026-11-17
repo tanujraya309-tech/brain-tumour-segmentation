@@ -61,7 +61,7 @@ class UNet(nn.Module):
         # Bottleneck
         b = self.bottleneck(self.pool(e3))
 
-        # Decoder with skip connections
+        # Decoder with skip connection
         d3 = self.up3(b)
         d3 = torch.cat([d3, e3], dim=1)
         d3 = self.dec3(d3)

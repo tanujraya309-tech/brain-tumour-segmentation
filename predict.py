@@ -122,7 +122,6 @@ print("----------------------------")
 print("Total MRI pixels:", total_pixels)
 
 print("Predicted tumour pixels:", tumour_pixels)
-
 print(
     "Tumour area percentage:",
     round(tumour_percentage, 2),
